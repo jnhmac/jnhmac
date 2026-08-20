@@ -22,4 +22,3 @@ Firebase, SQLite, Docker, Caddy, Cloudflare
 ### Elsewhere
 
 [lmfinder.ai](https://lmfinder.ai) is a directory of LLM tools I am building.
-[scoart.com.tr](https://scoart.com.tr) is my SEO and automation practice.
