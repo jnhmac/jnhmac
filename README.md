@@ -2,7 +2,7 @@
 
 Marketing operations and automation. Six years running GTM systems in B2B, four of them as sole owner and admin of a HubSpot platform covering automation, CRM, integrations, and pipeline reporting.
 
-These days I mostly build the systems rather than operate them: Python ETL, REST API integrations, n8n workflows, and scheduled pipelines. The work below is the part I can show publicly.
+These days I don't just run the systems, I build them: Python ETL, Databricks pipelines, REST API integrations, n8n workflows, and scheduled pipelines. The work below is the part I can show publicly.
 
 ### Things I have built
 
