@@ -18,9 +18,9 @@ A Databricks medallion pipeline over 53 years of daily market data, roughly 99,0
 ### Stack
 
 Python, FastAPI, TypeScript, Next.js, Astro<br>
-n8n, Databricks, PySpark, Delta Lake<br>
-HubSpot, Google Search Console, GA4, OpenRouter<br>
-Firebase, SQLite, Docker, Cloud Run, Caddy, Cloudflare
+n8n, OpenRouter, Databricks, PySpark, Delta Lake<br>
+HubSpot, Google Search Console, GA4<br>
+Firebase, SQLite, Docker, Cloud Run, Netlify, Caddy, Cloudflare
 
 ### Elsewhere
 
