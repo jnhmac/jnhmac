@@ -1,4 +1,4 @@
-## Jon Akcali
+## Jonah A.
 
 Marketing operations and automation. Six years running GTM systems in B2B, four of them as sole owner and admin of a HubSpot platform covering automation, CRM, integrations, and pipeline reporting.
 
