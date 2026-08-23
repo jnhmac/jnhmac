@@ -9,6 +9,9 @@ These days I don't just run the systems, I build them: Python ETL, Databricks pi
 **[b2b-lead-enrichment-pipeline](https://github.com/jnhmac/b2b-lead-enrichment-pipeline)**<br>
 Turns anonymous website visitors into scored, contact-ready sales leads. Six Python steps chain Leadfeeder, Hunter.io, OpenRouter, and Google Places, then write two linked HubDB tables that a HubSpot CMS page renders with no client-side API calls. Addresses and phone numbers come from regex extraction rather than the LLM, so the model never invents a plausible-looking wrong address. A manual CLI, a dashboard button, and a weekly Cloud Scheduler cron all hit the same FastAPI endpoint on Cloud Run.
 
+**[hubspot-broken-link-monitor](https://github.com/jnhmac/hubspot-broken-link-monitor)**<br>
+Link integrity checks for a HubSpot CMS site, built while consolidating a multi-subdomain setup onto a single root domain. Reads pages and posts through the CMS API rather than crawling, so it sees drafts and theme-module markup a crawler cannot. The substance is what it refuses to report: the first run flagged 200 broken links, 170 of which were our own server rate-limiting concurrent requests. Throttling to one request per second took verified links from 123 to 318 and the real count to 11. Every run logs its own false-positive counters.
+
 **[llm-citation-tracker](https://github.com/jnhmac/llm-citation-tracker)**<br>
 Measures how often AI answer engines cite your brand, across ChatGPT, Claude, Perplexity, and Gemini. Config-driven n8n workflow: prompts, tracked domains, engines, and model choices all live in a Google Sheet, so a marketer changes what is measured without anyone touching the automation. Append-only output, per-call cost logging, and error rows that never fake a negative result.
 
