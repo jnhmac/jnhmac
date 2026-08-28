@@ -38,17 +38,6 @@ Six chained steps move a visitor through Leadfeeder, Hunter.io, OpenRouter, and 
 
 > Addresses and phone numbers come from regex extraction, not the LLM. The model never gets the chance to invent a plausible-looking wrong address.
 
-### 🔗 [hubspot-broken-link-monitor](https://github.com/jnhmac/hubspot-broken-link-monitor)
-
-Link integrity across a HubSpot CMS site, built during a multi-subdomain to root-domain migration.
-
-![n8n](https://img.shields.io/badge/n8n-1a56c4?style=flat-square&logo=n8n&logoColor=white)
-![HubSpot](https://img.shields.io/badge/HubSpot%20CMS%20API-1a56c4?style=flat-square&logo=hubspot&logoColor=white)
-
-It reads pages and posts through the CMS API instead of crawling them, so it sees drafts and theme-module markup a crawler never reaches.
-
-> The useful part is what it refuses to report. The first run flagged 200 broken links. 170 of them were our own server rate-limiting concurrent requests. Throttling to one request per second took verified links from 123 to 318 and the real count to 11. Every run now logs its own false-positive counters.
-
 ### 🔍 [llm-citation-tracker](https://github.com/jnhmac/llm-citation-tracker)
 
 How often AI answer engines cite your brand, measured across ChatGPT, Claude, Perplexity, and Gemini.
@@ -61,6 +50,17 @@ How often AI answer engines cite your brand, measured across ChatGPT, Claude, Pe
 Prompts, tracked domains, engines, and model choices all live in a Google Sheet. A marketer changes what gets measured without anyone opening the automation.
 
 > Append-only output, per-call cost logging, and error rows that never fake a negative result.
+
+### 🔗 [hubspot-broken-link-monitor](https://github.com/jnhmac/hubspot-broken-link-monitor)
+
+Link integrity across a HubSpot CMS site, built during a multi-subdomain to root-domain migration.
+
+![n8n](https://img.shields.io/badge/n8n-1a56c4?style=flat-square&logo=n8n&logoColor=white)
+![HubSpot](https://img.shields.io/badge/HubSpot%20CMS%20API-1a56c4?style=flat-square&logo=hubspot&logoColor=white)
+
+It reads pages and posts through the CMS API instead of crawling them, so it sees drafts and theme-module markup a crawler never reaches.
+
+> The useful part is what it refuses to report. The first run flagged 200 broken links. 170 of them were our own server rate-limiting concurrent requests. Throttling to one request per second took verified links from 123 to 318 and the real count to 11. Every run now logs its own false-positive counters.
 
 ### 📈 [market-risk-analytics-engine](https://github.com/jnhmac/market-risk-analytics-engine)
 
