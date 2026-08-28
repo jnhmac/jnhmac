@@ -120,7 +120,5 @@ Gold produces twelve analytics tables covering Value at Risk, stress-period perf
 
 [**lmfinder.ai**](https://lmfinder.ai) — a directory of LLM tools, built and maintained by me.
 
-## 📬 Currently
 
-Open to marketing operations and GTM engineering roles. Phoenix, AZ or remote.
 Reach me on [**LinkedIn**](https://www.linkedin.com/in/jyakcali/).
