@@ -118,7 +118,8 @@ Gold produces twelve analytics tables covering Value at Risk, stress-period perf
 
 ## 🌐 Elsewhere
 
-[**lmfinder.ai**](https://lmfinder.ai) — a directory of LLM tools, built and maintained by me.
+[**lmfinder.ai**](https://lmfinder.ai) - a directory of LLM tools, built and maintained by me.
 
+---
 
 Reach me on [**LinkedIn**](https://www.linkedin.com/in/jyakcali/).
