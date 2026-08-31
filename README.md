@@ -1,6 +1,6 @@
 # Jonah A.
 
-**Marketing operations, built as software.**
+**I run marketing operations, automate what repeats, and customize what needs it.**
 
 Six years running GTM systems in B2B, four of them as sole owner and admin of a HubSpot platform covering automation, CRM, integrations, and pipeline reporting. Somewhere in there the job changed: instead of configuring what the tool already did, I started building what it couldn't. Python ETL, Databricks pipelines, REST API integrations, n8n workflows, scheduled jobs.
 
@@ -12,7 +12,7 @@ Five of those systems are public. Each one runs against real data, most of them 
 
 ### 🧾 [website-lead-qualifier](https://github.com/jnhmac/website-lead-qualifier)
 
-Company websites, read and qualified before anyone pays to enrich them.
+Goes through a list of company domains, reads each website, and says whether it is a target or not.
 
 ![Python](https://img.shields.io/badge/Python-1a56c4?style=flat-square&logo=python&logoColor=white)
 ![Firecrawl](https://img.shields.io/badge/Firecrawl-1a56c4?style=flat-square)
