@@ -1,6 +1,6 @@
 # Jonah A.
 
-**I run marketing operations, automate what repeats, and customize what needs it.**
+**I run marketing operations, automate where I can, and tailor where I have to.**
 
 Six years running GTM systems in B2B, four of them as sole owner and admin of a HubSpot platform covering automation, CRM, integrations, and pipeline reporting. Somewhere in there the job changed: instead of configuring what the tool already did, I started building what it couldn't. Python ETL, Databricks pipelines, REST API integrations, n8n workflows, scheduled jobs.
 
