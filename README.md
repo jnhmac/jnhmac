@@ -6,10 +6,9 @@ Six years running GTM systems in B2B, four of them as sole owner and admin of a 
 
 Five of those systems are public. Each one runs against real data, most of them on a schedule.
 
----
 
 ## 🛠 Selected work
-
+---
 ### 🧾 [website-lead-qualifier](https://github.com/jnhmac/website-lead-qualifier)
 
 Goes through a list of company domains, reads each website, and says whether it is a target or not.
