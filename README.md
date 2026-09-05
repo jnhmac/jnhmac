@@ -8,7 +8,9 @@ Five of those systems are public. Each one runs against real data, most of them 
 
 
 ## 🛠 Selected work
+
 ---
+
 ### 🧾 [website-lead-qualifier](https://github.com/jnhmac/website-lead-qualifier)
 
 Goes through a list of company domains, reads each website, and says whether it is a target or not.
