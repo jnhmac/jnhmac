@@ -4,26 +4,28 @@
 
 Six years running GTM systems in B2B, four of them as sole owner and admin of a HubSpot platform covering automation, CRM, integrations, and pipeline reporting. Somewhere in there the job changed: instead of configuring what the tool already did, I started building what it couldn't. Python ETL, Databricks pipelines, REST API integrations, n8n workflows, scheduled jobs.
 
-Five of those systems are public. Each one runs against real data, most of them on a schedule.
+Five of those systems are shown below. Each one runs against real data, most of them on a schedule.
 
 
 ## 🛠 Selected work
 
 ---
 
-### 🧾 [website-lead-qualifier](https://github.com/jnhmac/website-lead-qualifier)
+### 🧾 [b2b-ai-lead-qualification-agent](https://github.com/jnhmac/b2b-ai-lead-qualification-agent)
 
-Goes through a list of company domains, reads each website, and says whether it is a target or not.
+Reads each company's website, decides whether it is worth a salesperson's call, and attaches the sentence from the company's own site that proves it.
 
 ![Python](https://img.shields.io/badge/Python-1a56c4?style=flat-square&logo=python&logoColor=white)
 ![Firecrawl](https://img.shields.io/badge/Firecrawl-1a56c4?style=flat-square)
 ![Anthropic](https://img.shields.io/badge/Anthropic-1a56c4?style=flat-square&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-1a56c4?style=flat-square&logo=claude&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-1a56c4?style=flat-square&logo=pydantic&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-1a56c4?style=flat-square&logo=pytest&logoColor=white)
 
-Six stages crawl a company's site and return a four-way verdict on whether it fits, with the sentence that justifies it. It sits directly upstream of the enrichment pipeline below: identification tells you a company visited, not whether they are worth a salesperson's time, and enrichment is priced per record. Roughly nine crawl credits and ten cents of inference per domain, and 654 tests that run offline with no keys.
+Built for an industrial consumables supplier whose best prospects run a cleanroom of their own, something no industry code or keyword search can tell you. The crawler reads two pages first and all ten only when unsure, every quote passes six checks, and three Claude agents review each batch before anything reaches sales. It sits directly upstream of the enrichment pipeline below, because enrichment is priced per record. In production: about 1,100 companies screened and about 540 qualified for about $72 in total, roughly thirteen cents per qualified lead.
 
-> Every claim carries a verbatim quote, and the pipeline checks that quote appears in the stored page before the claim is allowed to count. Accuracy is quoted only from a dual-reader holdout, printed with its interval, 78.3% [58.1, 90.3], because on 23 domains a point estimate on its own is a claim about noise.
+> Agents propose; only the owner adopts. One agent re-judges every company blind, one names the cause of each disagreement, and one turns the batch into a single approval sheet. On a 98-company test batch that sheet went from 29 items to 3.
+
+Case study with a 72-second video walkthrough. Code walkthrough on request.
 
 ---
 
